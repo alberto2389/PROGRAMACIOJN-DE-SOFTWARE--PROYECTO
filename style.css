@@ -1,0 +1,128 @@
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(180deg, #e0e7ff, #f9fafb); 
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+.container {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+
+hr {
+  margin: 35px 0;
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+
+.btn-primary {
+  background: #4f46e5;  
+  color: white;
+  font-weight: bold;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px 5px;
+  font-size: 16px;
+}
+.btn-primary:hover {
+  background: #3730a3;  
+}
+
+
+.emoji-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 25px 0;
+}
+.emoji-button {
+  font-size: 30px;
+  padding: 18px;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f1f5f9;
+}
+.emoji-button:hover {
+  background: #6366f1;
+  color: white;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: #f9fafb;
+}
+.input-field:focus {
+  border-color: #4f46e5;
+  background: #fff;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #4f46e5;        
+  margin-bottom: 20px;
+  border-bottom: 2px solid #6366f1;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #1e3a8a;         
+  margin: 25px 0 15px;
+  background: #e0e7ff;   
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #374151;        
+  margin: 15px 0 10px;
+  border-left: 4px solid #6366f1;
+  padding-left: 8px;
+}
+
+
+p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #444;
+}
+
+
+.block {
+  margin-bottom: 20px;
+  text-align: left;
+  background: #eef2ff;   
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
